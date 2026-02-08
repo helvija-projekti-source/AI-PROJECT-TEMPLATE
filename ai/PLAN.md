@@ -4,11 +4,14 @@ Plan (current iteration)
 - Confirm Vite + vanilla JS entry and starter UI exist
 - Confirm version is displayed from `package.json`
 
-2. Hosting configuration
-- Add `firebase.json` to serve `dist/` with SPA rewrites
+2. Universal template features
+- Add lightweight modules for router, config, storage, and events
+- Create page modules and route table
+- Wire `src/main.js` to use the router
+- Add optional web manifest and link in `index.html`
 
 3. Documentation
-- Update `README.md` with dev, build, and Firebase Hosting steps
+- Update `README.md` with new template modules and usage notes
 
 4. Validation (manual)
 - Run `npm run dev`

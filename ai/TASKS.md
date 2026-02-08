@@ -8,6 +8,15 @@ UI
 Hosting
 - [x] Add `firebase.json` targeting `dist/` with SPA rewrites
 
+Universal features
+- [x] Add `src/app/config.js` for constants (name, version)
+- [x] Add `src/app/router.js` hash router with 404 + title
+- [x] Add `src/app/storage.js` JSON-safe localStorage helper
+- [x] Add `src/app/events.js` event emitter
+- [x] Add `src/pages/` modules for Home/Open/Settings
+- [x] Wire `src/main.js` to render routes and update nav
+- [x] Add `public/manifest.webmanifest` and link in `index.html`
+
 Docs
 - [x] Update `README.md` with dev/build/deploy steps
 
